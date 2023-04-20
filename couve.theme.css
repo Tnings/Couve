@@ -1,0 +1,81 @@
+/**
+ * @name Midnight Couve
+ * @author A user#8169, Nyria#3863
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version 2.3.0
+*/
+
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
+
+/* Settings */
+:root {
+  --version: "2.3.0";
+
+  /* Colors */
+  --main-color: #9864a3;
+
+  /* Borders */
+  --avatar-radius: 100%;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+  /* BGs */
+  --background-primary: #36263A;
+  --background-secondary: #281D30;
+  --background-secondary-alt: #211828;
+  --background-secondary-alt-alt: #1b1d31;
+  --background-tertiary: #1a141f;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0003;
+
+  /* Cards */
+  --card: #1a141f;
+
+  /* Other stuff */
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
+
+  /* Font */
+  --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+  /* BGs */
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0001;
+
+  /* Cards */
+  --card: #aaaaaa;
+
+  /* Other stuff */
+  --textcolor: #000;
+  --epicshadow1: #0003;
+}
+
+:root .searchBar-3TnChZ .searchBarComponent-3N7dCG{
+  font-size: 13px !important;
+}
+
+.contents-3NembX > svg > path{
+  fill: var(--main-color);
+}
